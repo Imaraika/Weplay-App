@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         WebView webb = (WebView)findViewById(R.id.wb1);
         webb.setWebViewClient(new WebViewClient());
-        webb.loadUrl("https://imaraika.github.io/Portfolio/");
+        webb.loadUrl("192.168.0.255:8000");
     }
 }
